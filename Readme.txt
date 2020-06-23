@@ -34,5 +34,5 @@ I used the 'haar cascade files' which works with OpenCV to classify the face,lef
 The models folder contains my model file “cnnCat2.h5” which was trained on convolutional neural networks, so the best weughts are already odtained for the model.
 I have an audio clip “alarm.wav” which is played when the person is feeling drowsy.
 “Model.py” file contains the program through which I built my classification model by training on dataset. You could see the implementation of convolutional neural network in this file.
-“Drowsiness detection.py” is the main file of our project. To start the detection procedure, we have to run this file
+“Drowsiness detection.py” is the main file of our project. To start the detection procedure, we have to run this file.
 

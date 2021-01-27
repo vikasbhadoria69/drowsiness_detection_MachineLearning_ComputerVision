@@ -12,17 +12,17 @@
 **Packages:** OpenCV(face and eye detection), TensorFlow(keras uses TensorFlow as backend), Keras(to build the classification model), Pygame(to play alarm sound).
 
 ## Dataset 
-The data comprises around 7000 images of people’s eyes under different lighting conditions. After training the model on dataset, the final weights and model architecture file “models/cnnCat2.h5” is attached above in models folder.
+The data comprises around 7000 images of people’s eyes under different lighting conditions. After training the model on dataset, the final weights and model architecture file “models/cnnCat2.h5” is not uploaded as github cannot except file above 25 MB.
 
 ## The Model Architecture
 The model used is built with Keras using Convolutional Neural Networks (CNN). A convolutional neural network is a special type of deep neural network which performs extremely well for image classification purposes. A CNN basically consists of an input layer, an output layer and a hidden layer which can have multiple numbers of layers. A convolution operation is performed on these layers using a filter that performs 2D matrix multiplication on the layer and filter.
 
 The CNN model architecture consists of the following layers:
-Convolutional layer; 32 nodes, kernel size 3
-Convolutional layer; 32 nodes, kernel size 3
-Convolutional layer; 64 nodes, kernel size 3
-Fully connected layer; 128 nodes
-The final layer is also a fully connected layer with 2 nodes. In all the layers, a Relu activation function is used except the output layer in which the Softmax activation function is used.
+* Convolutional layer; 32 nodes, kernel size 3
+* Convolutional layer; 32 nodes, kernel size 3
+* Convolutional layer; 64 nodes, kernel size 3
+* Fully connected layer; 128 nodes
+* The final layer is also a fully connected layer with 2 nodes. In all the layers, a Relu activation function is used except the output layer in which the Softmax activation function is used.
 
 ## Face & eyes detection using OpenCV
 The 'haar cascade files' which works with OpenCV to classify the face,lefteye and righteye is been used.
